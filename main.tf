@@ -2,7 +2,7 @@ provider "local" {}
 
 # Create a local directory
 resource "local_file" "example_file" {
-  filename = "E:\DevOps NewFlow\example_file"
+  filename = "example_directory/example.txt"
   content  = "Hello, Terraform! This is a local file."
 }
 
